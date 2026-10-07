@@ -1,0 +1,8 @@
+{
+  "source_condition": {
+    "Description": "Folder of the original GIN repository (seizure or control)"
+  },
+  "source_file": {
+    "Description": "Original CSV file name; the number is the authors' segment label, its meaning is not documented"
+  }
+}

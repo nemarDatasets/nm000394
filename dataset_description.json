@@ -1,0 +1,33 @@
+{
+  "Name": "Intracranial current source density (CSD) during epileptic seizures and interictal periods, one patient (Budapest)",
+  "BIDSVersion": "1.10.0",
+  "DatasetType": "derivative",
+  "License": "CC-BY-NC-SA-4.0",
+  "Authors": [
+    "Dániel Fabó",
+    "Loránd Erőss",
+    "Zsigmond Benkő"
+  ],
+  "HowToAcknowledge": "Cite Benkő Z, Zlatniczki Á, Stippinger M, Fabó D, Sólyom A, Erőss L, Telcs A, Somogyvári Z: Complete Inference of Causal Relations between Dynamical Systems, arXiv:1808.10806v4 (2024), and the GIN repository zsigmondbenko/intracranial_csd.",
+  "Funding": [
+    "Hungarian National Research, Development and Innovation Fund NKFIH K113147",
+    "NKFIH K135837",
+    "Human Brain Project associative grant CANON"
+  ],
+  "ReferencesAndLinks": [
+    "https://gin.g-node.org/zsigmondbenko/intracranial_csd",
+    "https://arxiv.org/abs/1808.10806"
+  ],
+  "GeneratedBy": [
+    {
+      "Name": "Current source density computation by the data authors",
+      "Description": "CSD computed from subdural ECoG at four sites (Fl1, Fl2, iP, Fb) by the authors before deposit; converted to BrainVision float32 by NEMAR batch3 without any change of values."
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "URL": "https://gin.g-node.org/zsigmondbenko/intracranial_csd",
+      "Version": "master 3e5bd99b6919d3fa33e8c4d8d50c714f131dc20b"
+    }
+  ]
+}

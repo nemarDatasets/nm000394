@@ -1,0 +1,19 @@
+{
+  "TaskName": "interictal",
+  "TaskDescription": "Interictal (control) segment during phase-2 invasive video-EEG monitoring",
+  "Description": "Current source density (CSD) computed by the data authors from subdural ECoG; source file data/control/CSD60.csv",
+  "SamplingFrequency": 1024.0,
+  "PowerLineFrequency": 50,
+  "SoftwareFilters": "n/a",
+  "HardwareFilters": "n/a",
+  "Manufacturer": "Micromed",
+  "ManufacturersModelName": "Brain-Quick System Evolution",
+  "iEEGReference": "CSD derivation (reference-free); original recording referenced to skull or mastoid",
+  "ECOGChannelCount": 4,
+  "SEEGChannelCount": 0,
+  "RecordingDuration": 20.0,
+  "RecordingType": "epoched",
+  "ElectrodeManufacturer": "ADTECH Medical Instrument Corp.",
+  "iEEGPlacementScheme": "subdural grid and two strips, 10 mm inter-contact spacing",
+  "SourceFile": "sourcedata/gin-intracranial_csd/data/control/CSD60.csv"
+}

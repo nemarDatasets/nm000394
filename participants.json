@@ -1,0 +1,12 @@
+{
+  "age": {
+    "Description": "Age in years as stated in Benko et al. (arXiv:1808.10806)",
+    "Units": "year"
+  },
+  "sex": {
+    "Description": "not stated by the source"
+  },
+  "pathology": {
+    "Description": "Clinical condition as stated by the source"
+  }
+}

@@ -1,0 +1,5 @@
+name	type	units	low_cutoff	high_cutoff	description
+GrB6	ECOG	n/a	n/a	n/a	current source density at contact GrB6 (units not stated by the source)
+GrE2	ECOG	n/a	n/a	n/a	current source density at contact GrE2 (units not stated by the source)
+GrF4	ECOG	n/a	n/a	n/a	current source density at contact GrF4 (units not stated by the source)
+FbB3	ECOG	n/a	n/a	n/a	current source density at contact FbB3 (units not stated by the source)
