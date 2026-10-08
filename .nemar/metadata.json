@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Intracranial current source density (CSD) during epileptic seizures and interictal periods, one patient (Budapest)",
-  "description": "Derivative dataset of intracranial current source density (CSD) traces from a single patient with drug-resistant epilepsy, comprising 18 seizure segments and 16 interictal segments. CSD was computed by the data authors from subdural ECoG at four sites (fronto-lateral Fl1 and Fl2, inferior-parietal iP, fronto-basal Fb). The signals were originally used to test causal inference between dynamical systems in epileptic activity.",
-  "methods_description": "A 20-year-old patient underwent subdural grid and strip implantation (ADTECH, 10 mm inter-contact spacing) for pre-surgical evaluation. Video-EEG was recorded with a Micromed Brain-Quick System Evolution at 1024 Hz. CSD was computed by the data authors at four sites; the source paper describes 1–30 Hz Butterworth filtering and rank normalization, but it is not stated whether the deposited values are before or after these steps. Each segment contains 20480 samples across 4 channels (GrB6, GrE2, GrF4, FbB3); the mapping of these channel names to the paper's region labels is not stated.",
+  "description": "Derivative dataset of intracranial current source density (CSD) traces from a single 20-year-old patient with drug-resistant epilepsy, comprising 18 seizure segments and 16 interictal segments. CSD was computed by the data authors from subdural ECoG at four sites (fronto-lateral Fl1 and Fl2, inferior-parietal iP, and fronto-basal Fb) and converted to BrainVision format. The data were used to demonstrate causal inference between dynamical systems in epileptic activity (Benkő et al., arXiv:1808.10806). The mapping of the contact names in the files (GrB6, GrE2, GrF4, FbB3) to the paper's region labels is not stated by the source and remains uncertain.",
+  "methods_description": "Subdural grid and strip electrodes (ADTECH, 10 mm inter-contact spacing) were implanted for pre-surgical evaluation. Video-EEG was recorded with a Micromed Brain-Quick System Evolution at 1024 Hz. CSD was computed by the data authors at four cortical sites (Fl1, Fl2, iP, Fb). The associated paper describes 1-30 Hz Butterworth filtering and rank normalization, but the source deposit does not state whether the stored values are before or after these steps. Each segment contains 20480 samples across 4 channels.",
   "license": "CC-BY-NC-SA-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -13,31 +13,34 @@
   },
   "keywords": [
     {
-      "term": "Epilepsy",
-      "subject_scheme": "MeSH"
-    },
-    {
-      "term": "Electrocorticography",
-      "subject_scheme": "MeSH"
-    },
-    {
-      "term": "Seizures",
-      "subject_scheme": "MeSH"
-    },
-    {
       "term": "intracranial EEG"
     },
     {
       "term": "current source density"
     },
     {
-      "term": "interictal"
-    },
-    {
       "term": "causal inference"
     },
     {
-      "term": "drug-resistant epilepsy"
+      "term": "dynamical systems"
+    },
+    {
+      "term": "Epilepsy",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
+    },
+    {
+      "term": "Seizures",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D012640"
+    },
+    {
+      "term": "Electrocorticography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000069280"
+    },
+    {
+      "term": "interictal"
     }
   ],
   "related_identifiers": [
@@ -66,7 +69,7 @@
     },
     {
       "funder_name": "Human Brain Project",
-      "award_title": "associative grant CANON"
+      "award_title": "Associative grant CANON"
     }
   ],
   "resource_type_general": "Dataset",
@@ -87,5 +90,5 @@
     ".vmrk",
     ".yml"
   ],
-  "source_hash": "1a472d402ebcb0bca1323838e313b150a8cc0cf82ee946a2efea353a6ce2f956"
+  "source_hash": "4771b169b9c0927f8f91699fb95e4c0729a470b718b60f0de77cb63859e4084e"
 }
