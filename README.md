@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000394-blue)](https://doi.org/10.82901/nemar.nm000394)
+
 # Intracranial current source density during epileptic seizures (Budapest)
 
 This dataset contains intracranial Current Source Density (CSD) recordings of 18 epileptic seizures and 16 interictal
