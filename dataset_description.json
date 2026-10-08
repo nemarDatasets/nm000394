@@ -33,5 +33,7 @@
   ],
   "EthicsApprovals": [
     "Informed consent for clinical investigation and surgeries along institutional review board guidelines, in accordance with the Declaration of Helsinki (no committee name/number published)"
-  ]
+  ],
+  "DatasetDOI": "10.82901/nemar.nm000394",
+  "Version": "1.0.0"
 }
