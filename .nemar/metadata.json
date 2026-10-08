@@ -1,77 +1,28 @@
 {
   "version": "2.0",
   "pipeline_stage": "enriched",
+  "title": "Intracranial current source density (CSD) during epileptic seizures and interictal periods, one patient (Budapest)",
+  "description": "Derivative dataset of intracranial current source density (CSD) traces from a single patient with drug-resistant epilepsy, comprising 18 seizure segments and 16 interictal segments. CSD was computed by the data authors from subdural ECoG at four sites (fronto-lateral Fl1 and Fl2, inferior-parietal iP, fronto-basal Fb). The signals were originally used to test causal inference between dynamical systems in epileptic activity.",
+  "methods_description": "A 20-year-old patient underwent subdural grid and strip implantation (ADTECH, 10 mm inter-contact spacing) for pre-surgical evaluation. Video-EEG was recorded with a Micromed Brain-Quick System Evolution at 1024 Hz. CSD was computed by the data authors at four sites; the source paper describes 1–30 Hz Butterworth filtering and rank normalization, but it is not stated whether the deposited values are before or after these steps. Each segment contains 20480 samples across 4 channels (GrB6, GrE2, GrF4, FbB3); the mapping of these channel names to the paper's region labels is not stated.",
+  "license": "CC-BY-NC-SA-4.0",
+  "dataset_type": "derivative",
   "authors": {
     "Dániel Fabó": {},
     "Loránd Erőss": {},
     "Zsigmond Benkő": {}
   },
-  "funding_references": [
-    {
-      "funder_name": "Human Brain Project associative grant CANON"
-    },
-    {
-      "funder_name": "Hungarian National Research, Development and Innovation Fund (NKFIH)",
-      "award_number": "K113147"
-    },
-    {
-      "funder_name": "Hungarian National Research, Development and Innovation Fund (NKFIH)",
-      "award_number": "K135837"
-    },
-    {
-      "funder_name": "Human Brain Project",
-      "award_title": "Associative grant CANON"
-    }
-  ],
-  "title": "Intracranial current source density (CSD) during epileptic seizures and interictal periods, one patient (Budapest)",
-  "license": "CC-BY-NC-SA-4.0",
-  "dataset_type": "derivative",
-  "resource_type_general": "Dataset",
-  "modalities": [
-    "ieeg"
-  ],
-  "resource_type_specific": "iEEG Dataset",
-  "related_identifiers": [
-    {
-      "identifier": "https://github.com/nemarDatasets/nm000394",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataset/nm000394",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    }
-  ],
-  "sizes": [
-    "27.66 MB (103 files)"
-  ],
-  "formats": [
-    ".csv",
-    ".eeg",
-    ".json",
-    ".md",
-    ".tsv",
-    ".vhdr",
-    ".vmrk"
-  ],
-  "description": "This derivative iEEG dataset provides current source density (CSD) traces computed by the data authors from subdural ECoG recorded in a single patient with drug-resistant epilepsy at the Budapest epilepsy center. It contains 18 seizure segments and 16 interictal segments, each with 20480 samples across four channels. No raw ECoG is included in the release, and the units of the CSD values are not specified by the source. The data were used to demonstrate causal inference between dynamical systems.",
-  "methods_description": "A 20-year-old patient with drug-resistant epilepsy was implanted with subdural grids and strips (ADTECH, 10 mm inter-contact spacing) for pre-surgical evaluation. Video-EEG was recorded with a Micromed Brain-Quick System Evolution at 1024 Hz. CSD was computed by the data authors at fronto-lateral, inferior-parietal and fronto-basal sites.",
   "keywords": [
     {
       "term": "Epilepsy",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
-    },
-    {
-      "term": "Seizures",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D012640"
+      "subject_scheme": "MeSH"
     },
     {
       "term": "Electrocorticography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D000069280"
+      "subject_scheme": "MeSH"
+    },
+    {
+      "term": "Seizures",
+      "subject_scheme": "MeSH"
     },
     {
       "term": "intracranial EEG"
@@ -89,5 +40,52 @@
       "term": "drug-resistant epilepsy"
     }
   ],
-  "source_hash": "04f3f75f207e49c5409c1b4df592ed98e849d1e9b6a7e6f04a7a616f33fd5eba"
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000394",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000394",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "Human Brain Project associative grant CANON"
+    },
+    {
+      "funder_name": "Hungarian National Research, Development and Innovation Fund (NKFIH)",
+      "award_number": "K113147"
+    },
+    {
+      "funder_name": "Hungarian National Research, Development and Innovation Fund (NKFIH)",
+      "award_number": "K135837"
+    },
+    {
+      "funder_name": "Human Brain Project",
+      "award_title": "associative grant CANON"
+    }
+  ],
+  "resource_type_general": "Dataset",
+  "resource_type_specific": "iEEG Dataset",
+  "modalities": [
+    "ieeg"
+  ],
+  "sizes": [
+    "27.66 MB (103 files)"
+  ],
+  "formats": [
+    ".csv",
+    ".eeg",
+    ".json",
+    ".md",
+    ".tsv",
+    ".vhdr",
+    ".vmrk",
+    ".yml"
+  ],
+  "source_hash": "1a472d402ebcb0bca1323838e313b150a8cc0cf82ee946a2efea353a6ce2f956"
 }
