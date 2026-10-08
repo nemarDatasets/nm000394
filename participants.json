@@ -8,5 +8,21 @@
   },
   "pathology": {
     "Description": "Clinical condition as stated by the source"
+  },
+  "implant_type": {
+    "Source": "arXiv:1808.10806v4 (Benkő et al., Complete Inference of Causal Relations between Dynamical Systems) p.11 and Appendix B.2 p.27",
+    "Description": "implant type"
+  },
+  "soz_or_focus": {
+    "Description": "Seizure-activity regions and resection, verbatim summary",
+    "Source": "arXiv:1808.10806v4 (Benkő et al., Complete Inference of Causal Relations between Dynamical Systems) p.11"
+  },
+  "regions_sampled": {
+    "Description": "The four CSD derivation sites analysed",
+    "Source": "arXiv:1808.10806v4 (Benkő et al., Complete Inference of Causal Relations between Dynamical Systems) Fig. 5 caption, Appendix B.2"
+  },
+  "outcome": {
+    "Source": "arXiv:1808.10806v4 (Benkő et al., Complete Inference of Causal Relations between Dynamical Systems) p.11",
+    "Description": "outcome"
   }
 }

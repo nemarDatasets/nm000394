@@ -1,2 +1,2 @@
-participant_id	age	sex	pathology
-sub-01	20	n/a	drug-resistant epilepsy
+participant_id	age	sex	pathology	implant_type	soz_or_focus	regions_sampled	outcome
+sub-01	20	n/a	drug-resistant epilepsy	ECoG: subdural grid and two strips (AD-TECH, 10 mm spacing)	majority of high-frequency seizure activity in fronto-basal (Fb) and frontal (Fl1) regions; frontal and fronto-basal regions resected	fronto-basal; frontal; fronto-lateral; infero-parietal	seizure-free for 1 year, then relapse

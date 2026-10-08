@@ -16,7 +16,8 @@
   ],
   "ReferencesAndLinks": [
     "https://gin.g-node.org/zsigmondbenko/intracranial_csd",
-    "https://arxiv.org/abs/1808.10806"
+    "https://arxiv.org/abs/1808.10806",
+    "https://github.com/adam-zlatniczki/dimensional_causality"
   ],
   "GeneratedBy": [
     {
@@ -29,5 +30,8 @@
       "URL": "https://gin.g-node.org/zsigmondbenko/intracranial_csd",
       "Version": "master 3e5bd99b6919d3fa33e8c4d8d50c714f131dc20b"
     }
+  ],
+  "EthicsApprovals": [
+    "Informed consent for clinical investigation and surgeries along institutional review board guidelines, in accordance with the Declaration of Helsinki (no committee name/number published)"
   ]
 }
