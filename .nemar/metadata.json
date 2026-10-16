@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Intracranial current source density (CSD) during epileptic seizures and interictal periods, one patient (Budapest)",
-  "description": "This derivative dataset provides intracranial current source density (CSD) traces from a single 20-year-old patient with drug-resistant epilepsy, covering 18 seizure segments and 16 interictal segments recorded in Budapest. The CSD signals were computed by the data authors from subdural ECoG at four sites (fronto-basal, frontal, fronto-lateral and infero-parietal) and were used to demonstrate causal inference between dynamical systems (Benkő et al., arXiv:1808.10806). The units of the CSD values are not stated by the source. The deposited values are integers, and it is not stated whether they are before or after the 1-30 Hz Butterworth filtering and rank normalization described in the paper. The data were converted to BIDS iEEG format from the original GIN repository without changing values.",
-  "methods_description": "A 20-year-old patient underwent subdural grid and strip implantation (AD-TECH, 10 mm inter-contact spacing) for pre-surgical evaluation. Video-EEG was recorded with a Micromed Brain-Quick System Evolution at 1024 Hz. CSD was computed at four sites. Each segment contains 20480 samples across 4 channels. Electrodes were localised using post-implant CT, pre-implant MRI and the FreeSurfer pial surface.",
+  "description": "Derivative dataset of intracranial current source density (CSD) traces from a single patient with drug-resistant epilepsy, recorded at the National Institute for Clinical Neurosciences in Budapest. It contains 18 seizure segments and 16 interictal segments, each 20480 samples across four channels. The CSD was computed by the original authors from subdural ECoG at fronto-lateral, inferior-parietal and fronto-basal sites. The paper describes 1-30 Hz Butterworth filtering and rank normalization, but the deposited values are integers, so it is not stated whether the files are before or after these steps. CSD units are not stated by the source. The data were used to demonstrate causal inference between dynamical systems.",
+  "methods_description": "A 20-year-old patient with drug-resistant epilepsy was implanted with an ADTECH subdural grid and strips (10 mm inter-contact spacing) for pre-surgical evaluation. Video-EEG was recorded with a Micromed Brain-Quick System Evolution at 1024 Hz. CSD was computed at four sites (Fl1, Fl2, iP, Fb) and the traces were converted to BrainVision float32 format.",
   "license": "CC-BY-NC-SA-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -34,6 +34,9 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D000069280"
     },
     {
+      "term": "interictal"
+    },
+    {
       "term": "causal inference"
     }
   ],
@@ -47,14 +50,12 @@
       "identifier": "https://nemar.org/dataset/nm000394",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "10.48550/arXiv.1808.10806",
-      "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
+    {
+      "funder_name": "Human Brain Project associative grant CANON"
+    },
     {
       "funder_name": "Hungarian National Research, Development and Innovation Fund (NKFIH)",
       "award_number": "K113147"
@@ -65,11 +66,7 @@
     },
     {
       "funder_name": "Human Brain Project",
-      "award_title": "associative grant CANON"
-    },
-    {
-      "funder_name": "Human Brain Project",
-      "award_number": "associative grant CANON"
+      "award_title": "Associative grant CANON"
     }
   ],
   "resource_type_general": "Dataset",
