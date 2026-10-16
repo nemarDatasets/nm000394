@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "pipeline_stage": "enriched",
-  "title": "Benko-2018-complete-10.48550/arxiv.1808.10806",
+  "title": "Intracranial current source density (CSD) during epileptic seizures and interictal periods, one patient (Budapest)",
   "description": "This derivative dataset provides intracranial current source density (CSD) traces from a single 20-year-old patient with drug-resistant epilepsy, covering 18 seizure segments and 16 interictal segments recorded in Budapest. The CSD signals were computed by the data authors from subdural ECoG at four sites (fronto-basal, frontal, fronto-lateral and infero-parietal) and were used to demonstrate causal inference between dynamical systems (Benkő et al., arXiv:1808.10806). The units of the CSD values are not stated by the source. The deposited values are integers, and it is not stated whether they are before or after the 1-30 Hz Butterworth filtering and rank normalization described in the paper. The data were converted to BIDS iEEG format from the original GIN repository without changing values.",
   "methods_description": "A 20-year-old patient underwent subdural grid and strip implantation (AD-TECH, 10 mm inter-contact spacing) for pre-surgical evaluation. Video-EEG was recorded with a Micromed Brain-Quick System Evolution at 1024 Hz. CSD was computed at four sites. Each segment contains 20480 samples across 4 channels. Electrodes were localised using post-implant CT, pre-implant MRI and the FreeSurfer pial surface.",
   "license": "CC-BY-NC-SA-4.0",
@@ -90,5 +90,5 @@
     ".vmrk",
     ".yml"
   ],
-  "source_hash": "7b94f39839c621d96c040989447e8acc1f69b3af049e6f321806e187b4bcad2d"
+  "source_hash": "26b337223c55b3a1ba0104ada27a5cd55837a17eea02c9fb459185cec5f788dd"
 }
