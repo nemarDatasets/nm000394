@@ -1,3 +1,6 @@
+1.0.3 2026-10-21
+  - README: the stored CSD precedes the paper's 1-30 Hz filtering and rank normalisation (data availability statement "Raw CSD signal"; spectrum and signed integer values), replacing "not stated".
+
 1.0.2 2026-10-16
   - Restore the descriptive dataset Name recorded in the v1.0.0 history. Update generated metadata title and source hash.
 

@@ -36,7 +36,7 @@ contact names (GrB6, GrE2, GrF4, FbB3) to the paper's region labels; sex of the 
 
 Compiled after the upload from the article, its supplement and the source deposit (each statement names its source). Text and sidecar metadata only; no data file was changed.
 
-**Processing / reference.** The deposited signals are CSD, not raw potentials: "CSD was computed (at Fl1, Fl2, iP and Fb), 1–30 Hz Fourier filtering (4th order Butterworth filter) and subsequent rank normalization was carried out" (App. B.2, p.28). The deposited CSV values are integers, so whether the stored files are before or after the filtering and rank normalisation is not stated.
+**Processing / reference.** The deposited signals are CSD, not raw potentials: "CSD was computed (at Fl1, Fl2, iP and Fb), 1–30 Hz Fourier filtering (4th order Butterworth filter) and subsequent rank normalization was carried out" (App. B.2, p.28). The stored values precede that filtering and normalisation: the paper's data availability statement calls the deposit the "Raw CSD signal", and the CSV values are signed integers (not ranks) with 21-78% of the power below 1 Hz and a median 6.5% above 30 Hz (4 channels x 34 segments).
 
 **Electrode types.** AD-TECH subdural strips and a grid with 10 mm inter-contact spacing were implanted through a craniotomy, guided by neuronavigation and fluoroscopy (App. B.2). The text describes them as "a subdural grid and two strip electrodes" (p.11).
 
