@@ -12,7 +12,7 @@
   "ECOGChannelCount": 4,
   "SEEGChannelCount": 0,
   "RecordingDuration": 20.0,
-  "RecordingType": "epoched",
+  "RecordingType": "continuous",
   "ElectrodeManufacturer": "ADTECH Medical Instrument Corp.",
   "iEEGPlacementScheme": "subdural grid and two strips, 10 mm inter-contact spacing",
   "SourceFile": "sourcedata/gin-intracranial_csd/data/seizure/CSD3681.csv"
