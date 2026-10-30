@@ -50,3 +50,7 @@ Compiled after the upload from the article, its supplement and the source deposi
 | sub-01 | frontal (Fl1) | n/a | 1 (CSD derivation) | arXiv:1808.10806v4, p.11 Results; Fig. 5A/F; App. B.2 |
 | sub-01 | fronto-lateral (Fl2) | n/a | 1 (CSD derivation) | arXiv:1808.10806v4, p.11 Results; Fig. 5A/F; App. B.2 |
 | sub-01 | infero-parietal (iP) | n/a | 1 (CSD derivation) | arXiv:1808.10806v4, p.11 Results; Fig. 5A/F; App. B.2 |
+
+## RecordingType (18 Oct 2026)
+
+34 data files were marked `RecordingType` epoched without a usable epoch definition (no `EpochLength`, or `EpochLength` equal to the whole file). Each of them is ONE contiguous excerpt (no segment boundary in the .vmrk, no gap): there is nothing to cut into epochs, `read_raw_bids` refuses epoched files and `read_epochs_bids` failed (missing `EpochLength`, or an epoch dropped for every event that does not start at sample 0). `RecordingType` is now continuous (and `EpochLength` removed where it was present, 0 files); the files read with `read_raw_bids` and every event stays an annotation. The excerpts are still the authors' fixed windows (see above); only the BIDS label changed.
